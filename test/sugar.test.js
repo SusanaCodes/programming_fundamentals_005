@@ -54,7 +54,7 @@ describe("Object.min", () => {
   });
 });
 
-describe("Object.max", () => {
+describe.only("Object.max", () => {
   test("returns the largest number of all values in an object", () => {
     expect(
       Object.max({
