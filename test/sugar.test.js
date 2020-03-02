@@ -54,7 +54,7 @@ describe("Object.min", () => {
   });
 });
 
-describe.only("Object.max", () => {
+describe("Object.max", () => {
   test("returns the largest number of all values in an object", () => {
     expect(
       Object.max({
@@ -161,7 +161,7 @@ describe("Object.has", () => {
   });
 });
 
-describe("Object.sum", () => {
+describe.only("Object.sum", () => {
   test("returns the sum of all the values when all values are numbers", () => {
     const obj = {
       a: 1,
