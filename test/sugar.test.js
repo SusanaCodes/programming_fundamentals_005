@@ -161,7 +161,7 @@ describe("Object.has", () => {
   });
 });
 
-describe.only("Object.sum", () => {
+describe("Object.sum", () => {
   test("returns the sum of all the values when all values are numbers", () => {
     const obj = {
       a: 1,
@@ -234,7 +234,7 @@ describe("Object.invert", () => {
   });
 });
 
-describe("Object.addAll", () => {
+describe.only("Object.addAll", () => {
   test("Creates a new object out of all the objects in an array", () => {
     const objects = [{ a: 1 }, { b: 3 }, { c: "foo" }];
 
